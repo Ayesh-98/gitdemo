@@ -1,0 +1,23 @@
+different git commands
+>git init = intializing
+>git add <file-name>:  specific file to staging area
+>git add . :all untracked  and modified files to staging area
+>g : all untracked files to staging
+>git rm --cached 
+>git commit
+>git log  --pretty=oneline = print the commit log in single line
+>git log --pretty=full
+git log --date=short--pretty=format:"%h %ad| %s %d[%an]"
+>git show = shows the differences happening in the particular file
+>git checkout <branch- name> = Head will start pointing to a specific behaviour
+>git checkout -b <branch-name> = Creates the branch if not exists and checkout to a specified branch
+>git reset --hard<commitid>
+>git merge <branch-name>
+>git add orgin <remote repository link>
+>git add orgin master --force
+>git remote :list of remote repoaitory
+>git pull<repsitory link>
+>git stash save: Temporarily stores all the modified track files
+>git stash pop : restores the most recently stashed files
+>git stash list: lists all stashed files
+>git stash drop : discards more recently stashed changeset
